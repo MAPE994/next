@@ -1,0 +1,43 @@
+.shipCard {
+    height: 325px;
+    border-radius: 10px;
+    margin: 15px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.shipCard .content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.shipCard .content .shipName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.shipCard .content .shipType {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #233869;
+}
+
+.shipCard .content .cta {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FB;
+    box-shadow: 0px 1px 0px #D3D7E1;
+}

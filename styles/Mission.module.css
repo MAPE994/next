@@ -1,0 +1,17 @@
+.mission {
+    margin-top: 15px;
+}
+
+.missionName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1E1E1E;
+}
+
+.missionFlight {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #1E1E1E;
+}

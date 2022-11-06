@@ -1,0 +1,73 @@
+.shipCard {
+    height: 325px;
+    margin: 15px 0;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 0px #D3D7E1;
+}
+
+.shipCard .content {
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.shipCard .content .shipName {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 55px;
+    color: #1E1E1E;
+}
+
+.shipCard .content .shipType {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #233869;
+}
+
+.shipCard .cta {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FB;
+    box-shadow: 0px 1px 0px #D3D7E1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.ctaBottom a {
+    display: flex;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.ctaBottom  p{
+    padding-left: 10px;
+}
+
+.basicInfoTitle,
+.missionsTitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #233869;
+}
+
+.missions {
+    margin: 50px 0;
+}
